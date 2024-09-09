@@ -10,8 +10,6 @@ const allChars = number + uppercaseWord + lowercaseWord + symbol;
 
 //Add events to button
 generatBtn.addEventListener("click", creatPassword);
-
-//function
 function creatPassword() {
   let password = "";
   const length = parseInt(document.getElementById("passLenght").value);
